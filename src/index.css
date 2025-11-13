@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: url('/fonts/SharpGrotesk-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: url('/fonts/SharpGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: url('/fonts/SharpGrotesk-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk Book 25';
+  src: url('/fonts/SharpGrotesk-Book25.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    /* Cores principais do brandbook Landi Turbina */
+    --landi-red: 355 87% 40%;        /* #BC0F24 */
+    --landi-black: 0 0% 5%;          /* #0D0D0D */
+    --landi-gray: 0 0% 70%;          /* #b2b2b2 */
+    --landi-white: 0 0% 95%;         /* #f3f3f3 */
+    --landi-gold: 48 100% 61%;       /* #FFD338 */
+    --landi-gold-dark: 45 100% 44%;  /* #E0B600 */
+    
+    --background: var(--landi-black);
+    --foreground: var(--landi-white);
+
+    --card: var(--landi-black);
+    --card-foreground: var(--landi-white);
+
+    --popover: var(--landi-black);
+    --popover-foreground: var(--landi-white);
+
+    --primary: var(--landi-red);
+    --primary-foreground: var(--landi-white);
+
+    --secondary: var(--landi-gray);
+    --secondary-foreground: var(--landi-black);
+
+    --muted: 0 0% 15%;
+    --muted-foreground: var(--landi-gray);
+
+    --accent: var(--landi-red);
+    --accent-foreground: var(--landi-white);
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: var(--landi-white);
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: var(--landi-red);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: var(--landi-black);
+    --sidebar-foreground: var(--landi-white);
+    --sidebar-primary: var(--landi-red);
+    --sidebar-primary-foreground: var(--landi-white);
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: var(--landi-white);
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: var(--landi-red);
+  }
+
+  .dark {
+    --background: var(--landi-black);
+    --foreground: var(--landi-white);
+    --card: var(--landi-black);
+    --card-foreground: var(--landi-white);
+    --popover: var(--landi-black);
+    --popover-foreground: var(--landi-white);
+    --primary: var(--landi-red);
+    --primary-foreground: var(--landi-white);
+    --secondary: var(--landi-gray);
+    --secondary-foreground: var(--landi-black);
+    --muted: 0 0% 15%;
+    --muted-foreground: var(--landi-gray);
+    --accent: var(--landi-red);
+    --accent-foreground: var(--landi-white);
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: var(--landi-white);
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: var(--landi-red);
+    --sidebar-background: var(--landi-black);
+    --sidebar-foreground: var(--landi-white);
+    --sidebar-primary: var(--landi-red);
+    --sidebar-primary-foreground: var(--landi-white);
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: var(--landi-white);
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: var(--landi-red);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Sharp Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  #root {
+    overflow-x: hidden;
+  }
+}
