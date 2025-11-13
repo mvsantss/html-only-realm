@@ -1,7 +1,7 @@
 import { Clock, TrendingUp } from "lucide-react";
 
 export const TicketProgressBanner = () => {
-  const progress = 85;
+  const progress = 97;
   const ticketsRemaining = 15;
 
   return (
