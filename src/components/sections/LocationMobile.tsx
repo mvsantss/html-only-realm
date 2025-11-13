@@ -49,7 +49,10 @@ export const LocationMobile = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <button className="w-full bg-landi-red hover:bg-landi-red/90 text-landi-white font-bold text-base px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-xl">
+                <button 
+                  id="cta-location-mobile-ingresso"
+                  className="w-full bg-landi-red hover:bg-landi-red/90 text-landi-white font-bold text-base px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-xl"
+                >
                   RESERVAR MEU LUGAR AGORA
                 </button>
               </a>

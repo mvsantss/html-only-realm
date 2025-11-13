@@ -74,6 +74,7 @@ export const TicketsDesktop = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
+                    id="cta-tickets-desktop-termo-veiculo"
                     href="/termos/termo-veiculo.pdf"
                     download
                     className="flex-1 inline-flex items-center justify-center gap-2 bg-landi-red hover:bg-landi-red/90 text-landi-white text-sm font-medium px-4 py-3 rounded-lg transition-all duration-300"
@@ -81,6 +82,7 @@ export const TicketsDesktop = () => {
                     Termo de Responsabilidade do Veículo
                   </a>
                   <a
+                    id="cta-tickets-desktop-termo-menor"
                     href="/termos/termo-menor.pdf"
                     download
                     className="flex-1 inline-flex items-center justify-center gap-2 bg-landi-red hover:bg-landi-red/90 text-landi-white text-sm font-medium px-4 py-3 rounded-lg transition-all duration-300"
@@ -98,6 +100,7 @@ export const TicketsDesktop = () => {
             <p className="text-landi-black/60 text-base text-center mb-8">Acesso completo ao evento</p>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <a 
+                id="cta-tickets-desktop-sabado"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -110,6 +113,7 @@ export const TicketsDesktop = () => {
               </a>
 
               <a 
+                id="cta-tickets-desktop-domingo"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -122,6 +126,7 @@ export const TicketsDesktop = () => {
               </a>
 
               <a 
+                id="cta-tickets-desktop-pacote-completo"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -138,6 +143,7 @@ export const TicketsDesktop = () => {
               </a>
 
               <a 
+                id="cta-tickets-desktop-combo-camiseta"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"

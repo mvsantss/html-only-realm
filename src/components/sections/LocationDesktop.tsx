@@ -63,7 +63,10 @@ export const LocationDesktop = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <button className="w-full bg-landi-red hover:bg-landi-red/90 text-landi-white font-bold text-lg px-10 py-5 rounded-full transition-all duration-300 hover:scale-105 shadow-xl">
+                <button 
+                  id="cta-location-desktop-ingresso"
+                  className="w-full bg-landi-red hover:bg-landi-red/90 text-landi-white font-bold text-lg px-10 py-5 rounded-full transition-all duration-300 hover:scale-105 shadow-xl"
+                >
                   RESERVAR MEU LUGAR AGORA
                 </button>
               </a>

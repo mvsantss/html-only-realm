@@ -67,6 +67,7 @@ export const TicketsMobile = () => {
               </p>
                 <div className="flex flex-col gap-2">
                   <a
+                    id="cta-tickets-mobile-termo-veiculo"
                     href="/termos/termo-veiculo.pdf"
                     download
                     className="inline-flex items-center justify-center gap-2 bg-landi-red hover:bg-landi-red/90 text-landi-white text-xs font-medium px-3 py-2 rounded-lg transition-all duration-300"
@@ -74,6 +75,7 @@ export const TicketsMobile = () => {
                     Termo do Veículo
                   </a>
                   <a
+                    id="cta-tickets-mobile-termo-menor"
                     href="/termos/termo-menor.pdf"
                     download
                     className="inline-flex items-center justify-center gap-2 bg-landi-red hover:bg-landi-red/90 text-landi-white text-xs font-medium px-3 py-2 rounded-lg transition-all duration-300"
@@ -94,6 +96,7 @@ export const TicketsMobile = () => {
             <div className="space-y-3 mb-6">
               <div className="grid grid-cols-2 gap-3">
                 <a 
+                  id="cta-tickets-mobile-sabado"
                   href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -106,6 +109,7 @@ export const TicketsMobile = () => {
                 </a>
 
                 <a 
+                  id="cta-tickets-mobile-domingo"
                   href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -119,6 +123,7 @@ export const TicketsMobile = () => {
               </div>
 
               <a 
+                id="cta-tickets-mobile-pacote-completo"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -135,6 +140,7 @@ export const TicketsMobile = () => {
               </a>
 
               <a 
+                id="cta-tickets-mobile-combo-camiseta"
                 href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
                 target="_blank" 
                 rel="noopener noreferrer"

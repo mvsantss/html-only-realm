@@ -9,6 +9,7 @@ const Footer = () => {
           {/* Logo e Tagline */}
           <div className="flex flex-col items-center md:items-start">
             <img
+              id="cta-footer-logo-topo"
               src={taglineLogo}
               alt="Landi Turbina - Pra quem quer acelerar com estilo"
               className="h-24 md:h-32 w-auto mb-6 cursor-pointer hover:opacity-80 transition-opacity"
@@ -16,6 +17,7 @@ const Footer = () => {
             />
             <div className="flex items-center gap-4">
               <a 
+                id="cta-footer-youtube"
                 href="https://www.youtube.com/@landiturbinaupgrade8199/featured" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -27,6 +29,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
+                id="cta-footer-instagram"
                 href="https://www.instagram.com/landiturbina/" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -38,6 +41,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
+                id="cta-footer-tiktok"
                 href="https://www.tiktok.com/@landi.turbina" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -71,6 +75,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-landi-red" />
               <a 
+                id="cta-footer-telefone"
                 href="tel:+5514996952282" 
                 className="text-sm hover:text-landi-red transition-colors"
               >
