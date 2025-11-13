@@ -53,12 +53,20 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <video
                   className="w-full h-auto"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  controlsList="nodownload"
+                  onError={(e) => console.error('Erro ao carregar vídeo:', e)}
+                  onLoadedMetadata={(e) => {
+                    console.log('Vídeo carregado com sucesso');
+                    const video = e.currentTarget;
+                    // Garante que o vídeo está pronto para reprodução
+                    video.load();
+                  }}
                 >
                   <source src="/assets/video3d.mp4" type="video/mp4" />
                   Seu navegador não suporta a reprodução de vídeo.
@@ -117,12 +125,20 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative w-full rounded-xl overflow-hidden shadow-2xl">
+              <div className="relative w-full rounded-xl overflow-hidden shadow-2xl bg-black">
                 <video
                   className="w-full h-auto"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  controlsList="nodownload"
+                  onError={(e) => console.error('Erro ao carregar vídeo:', e)}
+                  onLoadedMetadata={(e) => {
+                    console.log('Vídeo carregado com sucesso');
+                    const video = e.currentTarget;
+                    // Garante que o vídeo está pronto para reprodução
+                    video.load();
+                  }}
                 >
                   <source src="/assets/video3d.mp4" type="video/mp4" />
                   Seu navegador não suporta a reprodução de vídeo.
