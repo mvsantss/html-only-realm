@@ -28,8 +28,10 @@ export const HeaderMobile = () => {
           
           <img
             src={landiTurbinaLogo}
-            alt="Landi Turbina"
+            alt="Landi Turbina - 1º Encontro Diesel Interior Paulista"
             className="w-full max-w-md"
+            loading="eager"
+            fetchPriority="high"
           />
           
           <div className="text-center space-y-6 w-full">
@@ -71,8 +73,9 @@ export const HeaderMobile = () => {
                 </p>
                 <img
                   src={dieselLogo}
-                  alt="DIESEL MILITIA"
+                  alt="DIESEL MILITIA - Apoio"
                   className="h-20 w-auto object-contain mx-auto"
+                  loading="lazy"
                 />
               </div>
               <div className="w-full max-w-sm">

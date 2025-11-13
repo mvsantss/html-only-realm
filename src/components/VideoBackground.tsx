@@ -46,7 +46,7 @@ export const VideoBackground = ({ videos, className = '' }: VideoBackgroundProps
           autoPlay
           muted
           playsInline
-          preload="auto"
+          preload="none"
           style={{ pointerEvents: 'none' }}
         >
           <source src={video} type="video/mp4" />

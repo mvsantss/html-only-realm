@@ -38,9 +38,11 @@ export const HeaderDesktop = ({ parallaxSlow, parallaxMedium, parallaxFast }: He
           >
             <img
               src={landiTurbinaLogo}
-              alt="Landi Turbina"
+              alt="Landi Turbina - 1º Encontro Diesel Interior Paulista"
               className="w-full h-auto mx-auto"
               style={{ maxWidth: '1800px' }}
+              loading="eager"
+              fetchPriority="high"
             />
           </div>
           
@@ -91,8 +93,9 @@ export const HeaderDesktop = ({ parallaxSlow, parallaxMedium, parallaxFast }: He
                 </p>
                 <img
                   src={dieselLogo}
-                  alt="DIESEL MILITIA"
+                  alt="DIESEL MILITIA - Apoio"
                   className="h-16 w-auto"
+                  loading="lazy"
                 />
               </div>
             </div>
