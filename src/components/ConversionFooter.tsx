@@ -20,6 +20,7 @@ export const ConversionFooter = () => {
           rel="noopener noreferrer"
         >
           <Button
+            id="cta-conversion-footer-ingresso"
             size="lg"
             className="bg-landi-white hover:bg-landi-white/90 text-landi-red font-bold text-xl md:text-2xl rounded-full shadow-2xl px-12 py-8 hover:scale-105 transition-transform"
           >

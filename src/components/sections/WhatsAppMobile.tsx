@@ -23,6 +23,7 @@ export const WhatsAppMobile = ({ onOpenModal }: WhatsAppMobileProps) => {
             
             <div className="pt-2">
               <Button
+                id="cta-whatsapp-mobile-entrar-grupo"
                 size="lg"
                 onClick={onOpenModal}
                 className="bg-[#25D366] hover:bg-[#25D366]/90 text-white font-medium text-sm px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg w-full"

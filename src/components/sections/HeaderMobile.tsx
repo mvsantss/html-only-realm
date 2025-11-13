@@ -48,6 +48,7 @@ export const HeaderMobile = () => {
             </div>
             
             <Button
+              id="cta-header-mobile-ingresso"
               size="lg"
               onClick={() => scrollToSection('ingressos')}
               className="bg-landi-gold hover:bg-landi-gold-dark text-black font-bold text-lg md:text-[22px] px-8 py-6 rounded-xl transition-all duration-300 hover:scale-105 w-full max-w-sm cursor-pointer"

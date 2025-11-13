@@ -50,7 +50,10 @@ export const AboutDesktop = () => {
               rel="noopener noreferrer"
               className="inline-block mt-8"
             >
-              <button className="bg-landi-gold hover:bg-landi-gold-dark text-landi-black font-bold text-base md:text-lg px-8 md:px-12 py-4 md:py-5 rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border-2 border-landi-gold animate-pulse-glow whitespace-nowrap">
+              <button 
+                id="cta-about-desktop-ingresso"
+                className="bg-landi-gold hover:bg-landi-gold-dark text-landi-black font-bold text-base md:text-lg px-8 md:px-12 py-4 md:py-5 rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border-2 border-landi-gold animate-pulse-glow whitespace-nowrap"
+              >
                 QUERO FAZER PARTE DESSA HISTÓRIA
               </button>
             </a>
@@ -84,6 +87,7 @@ export const AboutDesktop = () => {
             <div className="flex gap-2 justify-center">
               {images.map((_, index) => (
                 <button
+                  id={`cta-carousel-about-desktop-${index}`}
                   key={index}
                   onClick={() => api?.scrollTo(index)}
                   className={`h-2 rounded-full transition-all ${

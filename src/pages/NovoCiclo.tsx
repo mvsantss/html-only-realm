@@ -70,14 +70,15 @@ const Index = () => {
                 </p>
                 
                 <div className="flex justify-center">
-                  <a 
-                    href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      size="lg"
-                      className="bg-[#FFB800] hover:bg-[#E09A00] text-black font-bold text-lg px-12 py-6 rounded-xl transition-all duration-300 hover:scale-105"
+                <a 
+                  href="https://www.sympla.com.br/evento/1-encontro-landi-turbina/3190267" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    id="cta-video-desktop-ingresso"
+                    size="lg"
+                    className="bg-[#FFB800] hover:bg-[#E09A00] text-black font-bold text-lg px-12 py-6 rounded-xl transition-all duration-300 hover:scale-105"
                       style={{ 
                         boxShadow: '0px 0px 20px rgba(255, 184, 0, 0.8), 0px 0px 40px rgba(255, 184, 0, 0.4)',
                       }}
@@ -140,6 +141,7 @@ const Index = () => {
                     className="w-full max-w-sm"
                   >
                     <Button
+                      id="cta-video-mobile-ingresso"
                       size="lg"
                       className="bg-[#FFB800] hover:bg-[#E09A00] text-black font-bold text-lg px-8 py-6 rounded-xl transition-all duration-300 hover:scale-105 w-full"
                       style={{ 

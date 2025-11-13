@@ -50,7 +50,10 @@ export const AboutMobile = () => {
               rel="noopener noreferrer"
               className="block w-full mt-6"
             >
-              <button className="bg-landi-gold hover:bg-landi-gold-dark text-landi-black font-bold text-sm px-4 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border-2 border-landi-gold animate-pulse-glow w-full whitespace-nowrap overflow-hidden text-ellipsis">
+              <button 
+                id="cta-about-mobile-ingresso"
+                className="bg-landi-gold hover:bg-landi-gold-dark text-landi-black font-bold text-sm px-4 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border-2 border-landi-gold animate-pulse-glow w-full whitespace-nowrap overflow-hidden text-ellipsis"
+              >
                 QUERO FAZER PARTE DESSA HISTÓRIA
               </button>
             </a>
@@ -84,6 +87,7 @@ export const AboutMobile = () => {
             <div className="flex gap-2 justify-center mt-6">
               {images.map((_, index) => (
                 <button
+                  id={`cta-carousel-about-mobile-${index}`}
                   key={index}
                   onClick={() => api?.scrollTo(index)}
                   className={`h-2 rounded-full transition-all ${

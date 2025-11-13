@@ -109,6 +109,7 @@ export function WhatsAppGroupModal({ open, onOpenChange, groupUrl }: WhatsAppGro
     <Dialog open={open} onOpenChange={handleClose}>
       <DialogContent className="max-w-[90vw] sm:max-w-[425px] bg-landi-white border-none max-h-[90vh] overflow-y-auto rounded-3xl">
         <button
+          id="cta-modal-whatsapp-fechar"
           onClick={handleClose}
           className="absolute right-4 top-4 rounded-full p-2 hover:bg-landi-black/5 transition-colors z-50"
           aria-label="Fechar"
@@ -179,6 +180,7 @@ export function WhatsAppGroupModal({ open, onOpenChange, groupUrl }: WhatsAppGro
                 )}
               </div>
               <Button
+                id="cta-modal-whatsapp-enviar"
                 type="submit"
                 size="lg"
                 disabled={loading}
@@ -215,6 +217,7 @@ export function WhatsAppGroupModal({ open, onOpenChange, groupUrl }: WhatsAppGro
               </span>
             </DialogDescription>
             <Button
+              id="cta-modal-whatsapp-entrar-grupo-welcome"
               onClick={handleJoinGroup}
               size="lg"
               className="w-full bg-landi-red hover:bg-landi-red/90 text-white font-semibold text-base py-6 rounded-full transition-all duration-300 hover:scale-105"
@@ -243,6 +246,7 @@ export function WhatsAppGroupModal({ open, onOpenChange, groupUrl }: WhatsAppGro
               </span>
             </DialogDescription>
             <Button
+              id="cta-modal-whatsapp-acessar-grupo-existing"
               onClick={handleJoinGroup}
               size="lg"
               className="w-full bg-landi-red hover:bg-landi-red/90 text-white font-semibold text-base py-6 rounded-full transition-all duration-300 hover:scale-105"

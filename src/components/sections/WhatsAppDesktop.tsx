@@ -32,6 +32,7 @@ export const WhatsAppDesktop = ({ onOpenModal }: WhatsAppDesktopProps) => {
             
             <div className="pt-2">
               <Button
+                id="cta-whatsapp-desktop-entrar-grupo"
                 size="lg"
                 onClick={onOpenModal}
                 className="bg-[#25D366] hover:bg-[#25D366]/90 text-white font-medium text-base px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg"

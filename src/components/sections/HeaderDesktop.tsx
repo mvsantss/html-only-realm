@@ -63,6 +63,7 @@ export const HeaderDesktop = ({ parallaxSlow, parallaxMedium, parallaxFast }: He
             </div>
 
             <Button
+              id="cta-header-desktop-ingresso"
               size="lg"
               onClick={() => {
                 document.getElementById('ingressos')?.scrollIntoView({ behavior: 'smooth' });
