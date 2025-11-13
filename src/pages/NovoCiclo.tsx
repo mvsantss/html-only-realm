@@ -56,7 +56,7 @@ const Index = () => {
               <div className="relative z-10 w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/b34-j5JHFxk"
+                  src="https://www.youtube.com/embed/b34-j5JHFxk?controls=1&modestbranding=1&rel=0&showinfo=0"
                   title="Vídeo do Encontro Landi Turbina"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -118,7 +118,7 @@ const Index = () => {
               <div className="relative z-10 w-full rounded-xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/b34-j5JHFxk"
+                  src="https://www.youtube.com/embed/b34-j5JHFxk?controls=1&modestbranding=1&rel=0&showinfo=0"
                   title="Vídeo do Encontro Landi Turbina"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
