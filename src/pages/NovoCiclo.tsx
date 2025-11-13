@@ -54,13 +54,14 @@ const Index = () => {
               </div>
               
               <div className="relative z-10 w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/b34-j5JHFxk?controls=1&modestbranding=1&rel=0&showinfo=0"
-                  title="Vídeo do Encontro Landi Turbina"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <video
+                  className="absolute inset-0 w-full h-full object-cover"
+                  controls
+                  playsInline
+                >
+                  <source src="/assets/video3d.mp4" type="video/mp4" />
+                  Seu navegador não suporta vídeos HTML5.
+                </video>
               </div>
 
               <div className="space-y-6 text-center">
@@ -116,13 +117,14 @@ const Index = () => {
               </div>
               
               <div className="relative z-10 w-full rounded-xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/b34-j5JHFxk?controls=1&modestbranding=1&rel=0&showinfo=0"
-                  title="Vídeo do Encontro Landi Turbina"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <video
+                  className="absolute inset-0 w-full h-full object-cover"
+                  controls
+                  playsInline
+                >
+                  <source src="/assets/video3d.mp4" type="video/mp4" />
+                  Seu navegador não suporta vídeos HTML5.
+                </video>
               </div>
 
               <div className="space-y-4 text-center">
