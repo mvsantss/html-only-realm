@@ -53,17 +53,14 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative z-10 w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black isolate">
-                <video
-                  className="relative z-20 w-full h-auto pointer-events-auto"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  controlsList="nodownload"
-                >
-                  <source src="/assets/video3d.mp4" type="video/mp4" />
-                  Seu navegador não suporta a reprodução de vídeo.
-                </video>
+              <div className="relative z-10 w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/b34-j5JHFxk"
+                  title="Vídeo do Encontro Landi Turbina"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
 
               <div className="space-y-6 text-center">
@@ -118,17 +115,14 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative z-10 w-full rounded-xl overflow-hidden shadow-2xl bg-black isolate">
-                <video
-                  className="relative z-20 w-full h-auto pointer-events-auto"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  controlsList="nodownload"
-                >
-                  <source src="/assets/video3d.mp4" type="video/mp4" />
-                  Seu navegador não suporta a reprodução de vídeo.
-                </video>
+              <div className="relative z-10 w-full rounded-xl overflow-hidden shadow-2xl bg-black isolate aspect-video">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/b34-j5JHFxk"
+                  title="Vídeo do Encontro Landi Turbina"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
 
               <div className="space-y-4 text-center">
