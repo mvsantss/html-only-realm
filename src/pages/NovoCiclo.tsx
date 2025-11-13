@@ -58,15 +58,8 @@ const Index = () => {
                   className="w-full h-auto"
                   controls
                   playsInline
-                  preload="auto"
+                  preload="metadata"
                   controlsList="nodownload"
-                  onError={(e) => console.error('Erro ao carregar vídeo:', e)}
-                  onLoadedMetadata={(e) => {
-                    console.log('Vídeo carregado com sucesso');
-                    const video = e.currentTarget;
-                    // Garante que o vídeo está pronto para reprodução
-                    video.load();
-                  }}
                 >
                   <source src="/assets/video3d.mp4" type="video/mp4" />
                   Seu navegador não suporta a reprodução de vídeo.
@@ -130,15 +123,8 @@ const Index = () => {
                   className="w-full h-auto"
                   controls
                   playsInline
-                  preload="auto"
+                  preload="metadata"
                   controlsList="nodownload"
-                  onError={(e) => console.error('Erro ao carregar vídeo:', e)}
-                  onLoadedMetadata={(e) => {
-                    console.log('Vídeo carregado com sucesso');
-                    const video = e.currentTarget;
-                    // Garante que o vídeo está pronto para reprodução
-                    video.load();
-                  }}
                 >
                   <source src="/assets/video3d.mp4" type="video/mp4" />
                   Seu navegador não suporta a reprodução de vídeo.
