@@ -53,9 +53,9 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative z-10 w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-black isolate">
                 <video
-                  className="w-full h-auto"
+                  className="relative z-20 w-full h-auto pointer-events-auto"
                   controls
                   playsInline
                   preload="metadata"
@@ -118,9 +118,9 @@ const Index = () => {
                 </h2>
               </div>
               
-              <div className="relative w-full rounded-xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative z-10 w-full rounded-xl overflow-hidden shadow-2xl bg-black isolate">
                 <video
-                  className="w-full h-auto"
+                  className="relative z-20 w-full h-auto pointer-events-auto"
                   controls
                   playsInline
                   preload="metadata"
